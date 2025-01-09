@@ -1,0 +1,44 @@
+* body {
+    background-color: rgb(217, 238, 238);
+  }
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;   
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+/*making the backgri=ound of the table a color */
+.blue{
+    background-color: paleturquoise;
+}
+/*making the backgri=ound of the table a color */
+.purple{
+    background-color: rgb(231, 192, 231);
+}
+/*making the backgri=ound of the table a color */
+.pink{
+    background-color: rgb(250, 206, 213);
+}
+/*making the backgri=ound of the table a color */
+.green{
+    background-color: rgb(201, 242, 201);
+}
+/*making the backgri=ound of the table a color */
+.orange{
+    background-color: rgb(251, 214, 146);
+}
+/*making the backgri=ound of the table a color */
+.yellow{
+    background-color: rgb(242, 242, 174);
+}
+h2{
+    text-align: center;
+}
+a:hover {
+    background-color: rgb(187, 137, 187);
+    color: white;
+    text-decoration: none;
+}

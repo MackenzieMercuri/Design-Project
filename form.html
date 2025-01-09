@@ -1,0 +1,68 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>HTML FORMS</title>
+        </head>
+        <body>
+            <form>
+                 <!--I will be adding my first question-->
+                <label for="username">Enter your USERNAME:</label>
+                <input type="text" name="username" id="username" placeholder="username" required> 
+                <br>
+                 <!--I will be adding my second question-->
+                <label for="email">Enter your EMAIL address</label>
+                <input type="email" name="email" id="email" placeholder="email" required>
+                <br>
+                <!--I will be adding my third question-->
+                <label for="password">Enter your PASSWORD</label>
+                <input type="password" name="password" id="password" placeholder="password" required>
+                <br>
+                <!--I will be adding my fourth question-->
+                <p>Select your age range</p>
+                <input type="radio" name="age" id="ages 14-19">
+                <label for="option-1">ages 14-19</label><br>
+                <input type="radio" name="age" id="ages 20-30">
+                <label for="option-1">ages 20-30</label><br>
+                <input type="radio" name="age" id="ages 31 or older">
+                <label for="option-1">ages 31 or older</label><br>
+                <br>
+                <!--I will be adding my fifth question-->
+                <p>Security Questions:</p>
+                <label for="question">Security Question:</label>
+                <select name="question" id="question">
+                    <option value="q1">Why are you using this website?</option>
+                    <option value="q2">What food do you want to eat?</option>
+                    <option value="q3">What is your favourite retaurant?</option>
+                    <option value="q4">How big is your family?</option>
+                </select>
+                <br>
+                <label for="answer">Enter your answer</label>
+                <input type="text" name="answer" id="answer">
+                <br><br>
+                <!--I will be adding my sixth question-->
+                <label for="Bio">Enter your BIO...</label><br>
+                <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Enter your bio..."></textarea>
+                <br><br>
+                <br><br>
+                <!--I will be adding my seventh question-->
+                <p>Select your form of payment to these restaurants</p>
+                <input type="checkbox" name="bank" id="Cash">
+                <label for="option-1">Cash</label><br>
+                <input type="checkbox" name="bank" id="Credit">
+                <label for="option-1">Credit</label><br>
+                <input type="checkbox" name="bank" id="Debit">
+                <label for="option-1">Debit</label><br>
+                <input type="checkbox" name="bank" id="not paying">
+                <label for="option-1">Not paying</label><br>
+                <label for="cc">Enter your credit card info:</label>
+                <input type="text" name="cc" id="cc" min="16" max="16" pattern="[0-9]">
+                <label for="date">Expiry Date</label>
+                <input type="date" name="date" id="date">
+                <label for="cvv">3-digit CW</label>
+                <input type="text" name="cw" id="cw">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+                <input type="reset" name="reset" id="reset">
+            </form>
+        </body>
+    </html>
